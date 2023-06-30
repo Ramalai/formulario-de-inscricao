@@ -1,62 +1,62 @@
 body {
-    padding: 0;
-    margin: 0;
+    background-color: black;
 }
 
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 form {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    background-color: rgb(4, 94, 49);
-    max-width: 500px;
+    padding: 30px 35px;
+    border-radius: 20px;
+    width: 250px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+.form input {
+    display: block;
+    outline: none;
+    border-radius: 10px;
+    padding: 19px;
+    margin: 17px 0;
+    width: 100%;
+    border-style: none;
+    background-color: #303245; 
+    color: white;
 }
 
 h1 {
-    margin-bottom: 20px;
-    margin-left: 20px;
-    color: rgb(84, 87, 238);
-    text-shadow: 5px 5px 5px black;
-}
-
-input, textarea {
-    width: 200px;
-    padding: 10px;
-    color: black;
-    margin-left: 20px;
-    margin-top: 10px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border: 1px solid;
-}
-
-input:hover, textarea:hover, input:focus, textarea:focus {
-    border-color: #000066;
-    box-shadow: 5px 0px 9px #FFFF00;
-    background-color: #66FFFF;
-    color: black;
-    font-weight: bold;
-}
-
-.enviar {
-    background-color: rgb(84, 87, 238);
-    height: 40px;
-    width: 100px;
-    font-weight: bold;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border: 1px solid;
     color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
 }
 
-textarea {
-    width: 400px;
-    height: 120px;
-    line-height: 20px;
-    max-width: 400px;
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: white;
 }
 
-form label {
-    margin-left: 20px;
-    color: #FFFFFF;
-    font-weight: bold;
+form {
+    background-color: #15172b;
+}
+
+button {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 10px;
+    background-color: #08d;
+    color: white;
+
 }

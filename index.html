@@ -1,33 +1,36 @@
-<html> 
+<html>
 
-    <head> 
-        <title>Formulário de inscrição</title>
-        <meta charset="UTF-8" />
-    </head>
+<head>
+    <title>Placeholders</title>
+    <meta charset="UTF-8" />
+</head>
 
-    <link href="estilizacao.css" rel="stylesheet" media="all"/>
-    <script src="Javascript.js"> </script>
+<link href="estilizacao.css" rel="stylesheet" media="all" />
+<script src="Javascript.js"> </script>
 
-    <body>
-        <form name="Inscrição de curso">
-            <h1> Formulário de inscrição do Curso</h1>
+<body>
+    <div class="container-fluid">
+        <div class="form">
+            <form name="Inscrição de curso">
+                <h1> Welcome</h1>
 
-            <input type="text" id="nomeid" placeholder="Digite o seu nome" required="requerid" name="nome"/>
-            <label for="nome">Nome</label>
+                <h2>Let's create your account!</h2>
 
-            <input type="tel" id="foneid" placeholder="Digite o seu contato" name="fone"/>
-            <label for="fone">Fone</label>
+                <div class="inputs">
+                    <input type="text" id="nomeid" placeholder="First name" required="requerid" name="nome" />
+                    <label type="text" id="name"></label>
 
-            <input type="email" id="emailid" placeholder="Digite o seu e-mail" name="email"/>
-            <label for="email">E-mail</label>
+                    <input type="tel" id="foneid" placeholder="Last name" name="fone" />
+                    <label type="tel" id="tel"></label>
 
-            <input type="curse" id="curseid" placeholder="Digite o curso desejado" name="Curso"/>
-            <label for="Curso">Curso</label>
+                    <input type="email" id="emailid" placeholder="E-mail" name="email" />
+                    <label type="email" id="email"></label>
+                </div>
 
-            <textarea placeholder="Deixe sua opnião"></textarea>
-
-            <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
-        </form>
-    </body>
+                <button class="btn btn-block">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
 
 </html>
